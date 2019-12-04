@@ -9,7 +9,7 @@ function f1() {
 		$p1 = "p2";
 		echo "匿名函数内修改后：p1:$p1\n";
 	};
-	$func();
+//	$func();
 	echo "匿名函数执行完：p1:$p1\n";
 }
 
